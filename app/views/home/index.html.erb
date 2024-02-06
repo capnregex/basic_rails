@@ -1,0 +1,8 @@
+<h1>Welcome Home</h1>
+<p>Are you hungry</p>
+<ul>
+<% @meats.each do |meat| %>
+  <li><%= link_to meat.name, meat %></li>
+<% end %>
+</ul>
+<pre>
